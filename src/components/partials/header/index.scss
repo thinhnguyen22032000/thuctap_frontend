@@ -1,0 +1,17 @@
+$color__primary: #417690;
+$color__title: #f5dd5d;
+
+.header {
+    background-color: $color__primary;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.header-title {
+    font-size: 24px;
+    color: $color__title;
+}
